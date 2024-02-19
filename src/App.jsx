@@ -7,7 +7,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ReactApplication">
       <Routes>
         <Route
           path="/"
