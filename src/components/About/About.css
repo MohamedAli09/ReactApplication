@@ -1,0 +1,30 @@
+.About {
+  min-height: 100vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1abc9c;
+  
+}
+
+.iconsAndline i {
+  border: none !important;
+  color: white;
+}
+.iconsAndline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line , .line-p{
+  height: 4px;
+  width: 80px;
+  background-color: white;
+}
+.fa-plus{
+  border: none !important;
+  position: relative !important;
+}
+.avataaars{
+  width: 250px !important;
+}

@@ -1,0 +1,43 @@
+#Portfolio {
+  min-height: 100vh;
+  padding-top: 125px;
+  padding-bottom: 20px;
+}
+.item-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1abb9ce5;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.item-info:hover {
+  opacity: 1;
+}
+#singleImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  background-color: rgba(0, 55, 255, 0.25); /* Red background with 50% opacity */
+}
+
+#Portfolio .line{
+  background-color: black !important;
+}
+#Portfolio i{
+  color: black !important;
+}
+#Portfolio .iconsAndline{
+  margin-bottom: 20px !important;
+}

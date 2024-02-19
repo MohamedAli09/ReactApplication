@@ -1,0 +1,24 @@
+
+.Contacts {
+    min-height: 100vh;
+    padding-top: 150px;
+  }
+  
+  label {
+    left: 11px;
+    transition: all 0.5s  !important;
+    top:  40px ;
+  }
+  
+  .form-control {
+    box-shadow: none !important; /* You may want to include this as bootstrap applies these styles too */
+  }
+  input{
+    margin-bottom: 20px !important;
+  }
+  .Contacts .iconsAndline .line-p{
+    background-color: black !important; 
+  }
+  .Contacts .iconsAndline i{
+    color: black !important;
+  }
